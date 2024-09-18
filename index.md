@@ -1,5 +1,3 @@
 ---
-title: paulscreamer
+title: Projects
 ---
-
-Hello World
