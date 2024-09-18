@@ -1,2 +1,12 @@
 theme: minima
-author: paulscreamer
+author:
+  name: paulscreamer
+  email: paul.screamer@outlook.com
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+header_pages:
+  - about.md
+
