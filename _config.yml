@@ -4,7 +4,7 @@ title: "PAUL SCREAMER"
 description: 'personal blog'
 logo: 'assets/images/logo-kontur-fat.png'
 big-logo: 'assets/images/logo-with-screamer.png'
-favicon: 'assets/images/favicon.png'
+favicon: 'assets/images/logo.png'
 baseurl: ''
 include: ["_pages"]
 permalink: /:title/
