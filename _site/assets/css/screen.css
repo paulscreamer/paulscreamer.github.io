@@ -105,7 +105,7 @@ section.recent-posts {
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 0.8rem;
         padding-left: 0.8rem;
-        font-family: 'Courier New', Courier, monospace;
+        font-family: Courier, monospace;
     }
 }
 
@@ -260,7 +260,7 @@ span.post-read-more a:hover {
 }
 
 .mediumnavigation .form-control {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Courier, monospace;
     font-size: 0.8rem;
     border-radius: 30px;
     overflow: hidden;
@@ -337,7 +337,7 @@ span.post-read-more a:hover {
 }
 
 .article-post {
-    font-family: 'Share Tech Mono', Monospace, Courier;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 1.1rem;
     line-height: 1.84;
     color: rgba(0, 0, 0, .8);
