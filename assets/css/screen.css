@@ -105,8 +105,11 @@ section.recent-posts {
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 0.8rem;
         padding-left: 0.8rem;
-        font-family: Courier, monospace;
     }
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-family: Courier, monospace;
 }
 
 .listfeaturedtag {
