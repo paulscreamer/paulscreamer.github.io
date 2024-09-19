@@ -48,6 +48,10 @@ pre {
     min-height: 300px;
 }
 
+.lead {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .site-content {
     min-height: 60vh;
     padding-top: 1.5rem;
@@ -101,6 +105,7 @@ section.recent-posts {
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 0.8rem;
         padding-left: 0.8rem;
+        font-family: 'Courier New', Courier, monospace;
     }
 }
 
@@ -185,6 +190,7 @@ section.recent-posts {
 
 .post-top-meta {
     margin-bottom: 2rem;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .post-top-meta .author-thumb {
@@ -254,6 +260,7 @@ span.post-read-more a:hover {
 }
 
 .mediumnavigation .form-control {
+    font-family: 'Courier New', Courier, monospace;
     font-size: 0.8rem;
     border-radius: 30px;
     overflow: hidden;
@@ -280,6 +287,7 @@ span.post-read-more a:hover {
 
 .mediumnavigation .navbar-brand {
     font-weight: 500;
+
 }
 
 .mediumnavigation .dropdown-menu {
@@ -300,16 +308,15 @@ span.post-read-more a:hover {
 }
 
 .mediumnavigation .navbar-brand img {
-    max-height: 30px;
+    max-height: 45px;
     margin-right: 5px;
 }
 
 .mainheading h1.sitetitle {
-    font-family: Righteous;
+    font-family: "Courier New", Courier, monospace;
 }
 
 .mainheading h1.posttitle {
-    font-weight: 700;
     margin-bottom: 1rem;
 }
 
@@ -330,7 +337,7 @@ span.post-read-more a:hover {
 }
 
 .article-post {
-    font-family: Merriweather;
+    font-family: 'Share Tech Mono', Monospace, Courier;
     font-size: 1.1rem;
     line-height: 1.84;
     color: rgba(0, 0, 0, .8);
@@ -623,6 +630,7 @@ ul.tags li a:hover {
 
 .post-top-meta.authorpage .author-thumb {
     float: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .authorpage .author-description {
@@ -685,7 +693,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: "Andale Mono", Monospace, Courier, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .article-post .h1,
@@ -711,7 +719,7 @@ h6 {
 }
 
 .layout-page .article-post {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family:  "Andale Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
     font-size: 1rem;
 }
 

@@ -1,9 +1,9 @@
 # Site
-name: "Mediumish"
-title: "Mediumish"
-description: "Jekyll template, Medium styled, free for bloggers."
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+name: "SCREAMER"
+title: "PAUL SCREAMER"
+description: 'personal blog'
+logo: 'assets/images/logo-kontur-fat.png'
+favicon: 'assets/images/favicon.png'
 baseurl: ''
 include: ["_pages"]
 permalink: /:title/
@@ -11,22 +11,11 @@ permalink: /:title/
 # Authors
 authors:
   sal:
-    name: Sal
-    display_name: Sal
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-  john:
-    name: John
-    display_name: John    
-    avatar: 'assets/images/avatar.png'
-    gravatar: b1cc14991db7a456fcd761680bbc8f81
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
+    name: Paul Screamer
+    display_name: Paul
+    avatar: 'assets/images/logo.png'
+    email: paul.screamer@outlook.com
+    description: "Developer, Amatour Radio Enthusiast, author of this blog"
 
 # Plugins
 plugins:
