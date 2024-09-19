@@ -59,7 +59,13 @@
 
     <!-- Begin Logo -->
     <a class="navbar-brand" href="/">
-    <img src="/assets/images/logo-kontur-fat.png" alt="SCREAMER">
+        <picture>
+            <source media="(min-width: 480px)" srcset="/assets/images/logo-with-screamer.png">
+            <img src="/assets/images/logo-kontur-fat.png" alt="SCREAMER">
+        </picture>
+        
+
+    <!-- <img src="/assets/images/logo-kontur-fat.png" alt="SCREAMER"> -->
     </a>
     <!-- End Logo -->
 
@@ -278,10 +284,10 @@
             <!-- Prev/Next -->
             <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
             
-            <a class="prev d-block col-md-6" href="//options-for-creating-new-site-with-jekyll/"> &laquo; Options for creating a new site with Jekyll</a>
+            <a class="prev d-block col-md-6" href="/options-for-creating-new-site-with-jekyll/"> &laquo; Options for creating a new site with Jekyll</a>
             
             
-            <a class="next d-block col-md-6 text-lg-right" href="//red-riding/">Red Riding Hood &raquo; </a>
+            <a class="next d-block col-md-6 text-lg-right" href="/red-riding/">Red Riding Hood &raquo; </a>
             
             <div class="clearfix"></div>
             </div>

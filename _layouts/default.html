@@ -49,7 +49,13 @@ ga('send', 'pageview');
 
     <!-- Begin Logo -->
     <a class="navbar-brand" href="{{ site.baseurl }}/">
-    <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+        <picture>
+            <source media="(min-width: 480px)" srcset="{{ site.baseurl }}/{{ site.big-logo }}">
+            <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+        </picture>
+        
+
+    <!-- <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}"> -->
     </a>
     <!-- End Logo -->
 

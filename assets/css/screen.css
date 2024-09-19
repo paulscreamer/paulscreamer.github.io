@@ -330,7 +330,6 @@ span.post-read-more a:hover {
     font-size: 0.8rem;
     color: rgba(0, 0, 0, .44);
     margin-top: 50px;
-    margin-bottom: 62px;
     position: relative;
     background: #fff;
 }
@@ -787,6 +786,9 @@ iframe {
         border-radius: 0;
         background-image: url(../images/jumbotron.jpg);
         background-size: cover;
+        filter: gray; /* IE6-9 */
+        -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+        filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
     }
 
     .jumbotron.fortags .col-md-4 {
@@ -810,7 +812,7 @@ iframe {
 .jumbotron.fortags a {
     padding: 5px 10px 7px;
     background: #222;
-    border-radius: 30px;
+    border-radius: 8px;
     color: #fff;
     font-weight: 500;
     text-transform: lowercase;

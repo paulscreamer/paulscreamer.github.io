@@ -3,6 +3,7 @@ name: "SCREAMER"
 title: "PAUL SCREAMER"
 description: 'personal blog'
 logo: 'assets/images/logo-kontur-fat.png'
+big-logo: 'assets/images/logo-with-screamer.png'
 favicon: 'assets/images/favicon.png'
 baseurl: ''
 include: ["_pages"]
